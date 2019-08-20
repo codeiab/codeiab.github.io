@@ -1,0 +1,405 @@
+$main-color: #3F3F3F
+$second-color: #37A56E
+$third-color: #474747
+$white-color: #D6D6D6
+$green: #37A56E
+$font: 'Inconsolata', monospace
+
+html
+    justify-content: center
+    min-width: 1920px
+body
+    background-color: $main-color
+    width: 65%
+    margin: 0 auto
+    font-family: $font
+    
+header
+    margin-top: 25px
+    width: 100%
+    display: flex
+    justify-content: center
+.menu-button
+    color: #fff
+    text-decoration: none
+    font-style: normal
+    font-weight: bold
+    font-size: 24px
+    font-family: $font
+    transition: 0.10s
+    border-bottom: 0px solid $second-color
+    &:hover
+        border-bottom: 2.25px solid $second-color
+        padding-bottom: 4px
+.active
+    border-bottom: 2.25px solid $second-color
+    padding-bottom: 4px
+
+ul
+    list-style-type: none
+    display: flex
+    width: 70%
+    justify-content: space-around
+    align-items: center
+.first-block
+    display: flex
+    justify-content: space-between
+    svg
+            margin-top: 40px
+    .text-block
+        h1
+            color: $white-color
+            font-family: $font
+            font-size: 90px
+            margin-top: 130px
+        p
+            color: #000
+        
+.button-portfolio
+    background-color: $green
+    width: 180px
+    height: 60px
+    display: flex
+    align-items: center
+    justify-content: center
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25)
+    transition: 0.25s
+    &:hover
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.45)
+        position: relative
+        opacity: 1
+        transform: scale(1.1)
+    p
+        font-family: $font
+        font-weight: bold
+        font-size: 20px
+.second-block
+    padding-top: 80px
+    h1
+        padding-top: 40px
+        text-align: center
+        color: $white-color
+        font-size: 65px;
+
+    svg    
+        width: 65%
+        position: absolute
+        z-index: -1
+.main-selection
+    display: flex
+    justify-content: space-between
+.selection
+    background-color: $third-color
+    width: 26%
+    text-align: center
+    color: $white-color
+    padding: 30px
+    padding-bottom: 40px
+    transition: 0.15s
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25)
+    &:hover
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.45)
+    img
+        width: 100px
+        height: 100px
+    h2
+        font-size: 28px
+    p
+        font-size: 21.6974px
+        line-height: 154.4%
+        font-weight: normal
+.center
+    width: 100%
+    display: flex
+    justify-content: center
+.button-learn-more
+    background-color: $green
+    width: 150px
+    height: 50px
+    display: flex
+    align-items: center
+    justify-content: center
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25)
+    transition: 0.25s
+    &:hover
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.45)
+        position: relative;
+        opacity: 1;
+        transform: scale(1.1);
+    p
+        font-family: $font
+        font-weight: bold
+        font-size: 20px
+        color: #000
+
+
+.third-block
+    padding-top: 140px
+    h1
+        padding-top: 40px
+        text-align: center
+        color: $white-color
+        font-size: 65px;
+
+    svg    
+        width: 65%
+        position: absolute
+        z-index: -2
+.elements
+    svg
+        padding-top: 50px
+    .second-svg
+        svg
+            padding-top: 180px
+    img
+        
+        position: absolute
+        z-index: -1
+    
+.elements-img-second
+    width: 150px
+    margin-top: 550px
+.complex
+    padding-top: 50px
+    margin-left: 80px
+    display: flex
+.first-element
+    margin-top: 50px
+    width: 400px
+    height: 300px
+    background-color: $third-color
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25)
+    box-sizing: border-box
+    padding: 30px
+    padding-top: 0px
+    text-align: center
+    color: $white-color
+    h3
+        padding-top: 20px
+        font-size: 28px
+    p
+        text-align: left
+        font-size: 20px;
+        line-height: 130%;
+    
+.second-element
+    width: 400px
+    height: 300px
+    background-color: $third-color
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25)
+    box-sizing: border-box
+    padding: 30px
+    padding-top: 0px
+    text-align: center
+    color: $white-color
+    h3
+        padding-top: 20px
+        font-size: 28px
+    p
+        text-align: left
+        font-size: 20px;
+        line-height: 130%;
+.main-element
+    width: 400px
+    height: 700px
+    background-color: $third-color
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25)
+    color: $white-color
+    text-align: center
+    transition: 0.25s
+    &:hover
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25)
+        position: relative
+        transform: scale(1.05)
+    img
+        z-index: 2
+        position: relative
+        width: 170px
+        float: left
+        padding-left: 40px
+    h2
+        font-weight: bold;
+        font-size: 35px;
+    p
+        font-weight: bold;
+        font-size: 28px;
+        padding-top: 45px
+        padding-bottom: 11px
+.third-element
+    margin-top: 150px
+    width: 400px
+    height: 400px
+    background-color: $third-color
+    z-index: -1
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25)
+    box-sizing: border-box
+    padding: 30px
+    padding-top: 0px
+    text-align: center
+    color: $white-color
+    h3
+        padding-top: 20px
+        font-size: 28px
+    p
+        text-align: left
+        font-size: 20px;
+        line-height: 130%;
+
+.five-block
+    h1
+        font-size: 65px
+        padding-top: 100px
+    svg
+        position: absolute
+        left: 400px
+        padding-top: 50px
+    color: $white-color
+    text-align: center
+.why-us-element
+    width: 21%
+    z-index: 2
+    transition: 0.25s
+    &:hover
+        color: $second-color
+    p
+        padding-top: 20px
+        font-weight: bold;
+        font-size: 26px;
+.under-element
+    background-color: $third-color
+    width: 100%
+    height: 270px
+    transition: 0.25s
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25)
+    &:hover
+        position: relative;
+        opacity: 1;
+        transform: scale(1.02);
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.45)
+    img
+        width: 100%
+.flex
+    display: flex
+    justify-content: space-between
+
+@-webkit-keyframes scroll
+  0%
+    -webkit-transform: translateX(0)
+    transform: translateX(0)
+
+  100%
+    -webkit-transform: translateX(calc(-250px * 7))
+    transform: translateX(calc(-250px * 7))
+
+
+@keyframes scroll
+  0%
+    -webkit-transform: translateX(0)
+    transform: translateX(0)
+
+  100%
+    -webkit-transform: translateX(calc(-250px * 7))
+    transform: translateX(calc(-250px * 7))
+
+
+.slider
+  background: white
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25)
+  height: 200px
+  margin: auto
+  overflow: hidden
+  position: relative
+  width: 100%
+  &::before
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%)
+    content: ""
+    height: 200px
+    position: absolute
+    width: 200px
+    z-index: 2
+  &::after
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%)
+    content: ""
+    height: 200px
+    position: absolute
+    width: 200px
+    z-index: 2
+    right: 0
+    top: 0
+    -webkit-transform: rotateZ(180deg)
+    transform: rotateZ(180deg)
+  &::before
+    left: 0
+    top: 0
+  .slide-track
+    -webkit-animation: scroll 40s linear infinite
+    animation: scroll 40s linear infinite
+    display: flex
+    width: calc(250px * 14)
+  .slide
+    height: 200px
+    width: 500px
+label
+    color: $white-color
+    font-family: Inconsolata
+    font-style: normal
+    font-weight: bold
+    font-size: 27px
+.contact_form
+    text-align: center
+    p
+        button
+            background-color: $second-color
+            border: 0
+            font-family: Inconsolata
+            font-style: normal
+            font-weight: bold
+            font-size: 18px
+            padding: 10px 40px
+            transition: 0.25s
+            box-shadow: 0px 4px 15px rgba(51, 175, 113, 0.396)
+            &:hover
+                box-shadow: 0px 4px 15px rgba(51, 175, 113, 0.5)
+                position: relative;
+                opacity: 1;
+                transform: scale(1.1);
+
+INPUT[type="text"] 
+    background-color: $third-color
+    color: $white-color
+    border: 0
+    text-align: center
+    width: 50%
+    height: 50px
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    margin-top: 20px
+    transition: 0.25s
+    &:hover
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.45);
+INPUT[type="email"] 
+    background-color: $third-color
+    color: $white-color
+    border: 0
+    text-align: center
+    width: 50%
+    height: 50px
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    margin-top: 20px
+    transition: 0.25s
+    &:hover
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.45);
+textarea 
+    background-color: $third-color
+    color: $white-color
+    border: 0
+    width: 50%
+    height: 200px
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    margin-top: 20px
+    transition: 0.25s
+    padding: 20px
+    box-sizing: border-box
+    &:hover
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.45);
+footer
+    padding-top: 70px
