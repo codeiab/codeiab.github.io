@@ -10,7 +10,6 @@ body {
   width: 65%;
   margin: 0 auto;
   font-family: "Inconsolata", monospace;
-  overflow-x: hidden;
 }
 
 header {
@@ -619,5 +618,11 @@ textarea:hover {
 
 footer {
   padding-top: 70px;
+}
+
+@media screen and (min-device-width: 900px) {
+  body {
+    overflow-x: hidden;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
