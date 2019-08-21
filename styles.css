@@ -389,6 +389,7 @@ ul {
 .five-block h1 {
   font-size: 65px;
   padding-top: 100px;
+  z-index: 1;
 }
 
 .five-block svg {
